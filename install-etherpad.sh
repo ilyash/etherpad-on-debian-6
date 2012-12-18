@@ -58,5 +58,5 @@ cond_fail 3 "Fail to install nodejs and/or npm"
 ln -s /usr/bin/nodejs /usr/bin/node
 
 useradd -m ep
-su - ep -c 'git clone git://github.com/Pita/etherpad-lite.git'
+su - ep -c 'git clone git://github.com/ether/etherpad-lite'
 su - ep -c 'etherpad-lite/bin/run.sh'
